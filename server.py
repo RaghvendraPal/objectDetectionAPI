@@ -82,8 +82,8 @@ def success():
 
             #     init = tf.initialize_all_variables()
             model_rpn = Model(img_input, rpn_layers)
-            print('Loading weights from {}'.format(C.model_path))
-            model_rpn.load_weights(C.model_path, by_name=True)
+            # print('Loading weights from {}'.format(C.model_path))
+            # model_rpn.load_weights(C.model_path, by_name=True)
             # with tf.Session(graph=deep_grap) as sess:
             #     sess.run(init)
             # sess = tf.Session(graph=deep_grap)
